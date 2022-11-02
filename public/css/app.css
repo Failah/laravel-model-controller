@@ -1,0 +1,50 @@
+body {
+  background-color: darkgreen;
+  box-sizing: border-box;
+  padding-top: 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  width: -moz-max-content;
+  width: max-content;
+  color: white;
+  margin-bottom: 50px !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+
+.card {
+  width: calc(20% - 49px);
+  height: 240px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 0px 10px;
+  background-color: white;
+}
+
+.card h2 {
+  color: red;
+}
+
+.card h2 span {
+  color: blue;
+}
+
+.card div {
+  text-decoration: underline;
+}
+
+.card div span {
+  color: blue;
+}
+
